@@ -1,0 +1,140 @@
+
+body { margin: 0; }
+#wrap{width: 100%; height: 100vh; }
+    section ul li:nth-child(1) {
+        background-image: url(../imges/bskos.jpg);  
+    }
+
+    section ul li:nth-child(2) {
+        background-image: url(https://images.unsplash.com/photo-1537238334930-96afd82730cb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6ca23bc0ea5a99de24df1d4230046b47&auto=format&fit=crop&w=634&q=80);
+    }
+
+    section ul li:nth-child(3) {
+        background-image: url(https://images.unsplash.com/photo-1537817134261-aeaa1f307e80?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e4deb78a76e163299ed46407943112a8&auto=format&fit=crop&w=634&q=80);
+    }
+
+    section ul li:nth-child(4) {
+        background-image: url(https://images.unsplash.com/photo-1538007350915-a0ac08d2e28b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=cb780405d99466052702bd7ad86188f3&auto=format&fit=crop&w=634&q=80);
+    }
+    section ul li:nth-child(5) {
+        background-image: url(https://images.unsplash.com/photo-1537816732023-da3f9bebf213?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=55a322dea08b3dac4821271224a8493e&auto=format&fit=crop&w=634&q=80);
+    }
+    section ul li:nth-child(6) {
+        background-image: url(https://images.unsplash.com/photo-1537960372803-0fcbe7fb0dc2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8c337e2b88279c273f38eefd124e3e57&auto=format&fit=crop&w=634&q=80);
+    }
+    section ul li:nth-child(7) {
+        background-image: url(https://images.unsplash.com/photo-1537884557178-342a575d7d16?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f4bedfb202a7ebacc49ab5c464afda6f&auto=format&fit=crop&w=675&q=80);
+    }
+
+
+@media all and (min-width: 1200px) {
+    header{width: 25%;  height: 100%; float: left; position: fixed;padding: 40px;}
+    header h1{font-size: 20px;}
+    header nav {    display: inline-block;
+        margin-top: 80px;
+        margin-left: 10px;}
+    header nav ul{}
+    header nav ul li{    margin-bottom: 20px;}
+    section{width: 75%; height: 100%; float: right;}
+    section ul{width: 100%;  height: 100%;}
+    section ul li{float: left; 
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 130%; 
+        -webkit-transition: .4s ease-in-out;
+        transition: .4s ease-in-out;
+        cursor: pointer;
+    }
+    section ul li:hover{background-size:140%;}
+    section ul .x50x50{width: 66.666%; height: 66.666vh; }
+    section ul .x25x50{width: 33.333%; height: 66.666vh;}
+    section ul .x25x25{width: 33.333%; height: 44.444vh;}
+    section ul .x37x37{width: 50%; height: 50vh;}
+
+    footer{width: 75%; height: 200px; float: right;    background-color: #12b9a5;}
+    footer p{text-align: center; color: #fff; line-height: 200px;}    
+}
+
+/*----------------------------------------------------------------------------------------------------------*/
+
+
+@media all and (min-width: 601px) and (max-width: 1199px) {
+    header{    width: 100%;
+    height: 90px;
+    float: left;
+    /* position: fixed; */
+    padding-top: 30px;
+    padding-bottom: 30px;}
+    header h1{font-size: 20px;text-align: center;}
+    header nav {     margin-top: 50px;
+    /* margin-left: 10px; */
+    width: 100%;}
+    header nav ul{    width: 100%;}
+    header nav ul li{  float: left;    text-align: center;    font-size: 0.9em;
+    /* margin-left: 20px; */
+    width: 20%;}
+    section{width: 100%; height: 100%; float: right;}
+    section ul{width: 100%;  height: 100%;}
+    section ul li{float: left; 
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 130%; 
+        -webkit-transition: .4s ease-in-out;
+        transition: .4s ease-in-out;
+        cursor: pointer;
+    }
+    section ul li:hover{background-size:140%;}
+
+    section ul li:nth-child(2) {
+        background-image: url(https://images.unsplash.com/photo-1537238334930-96afd82730cb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6ca23bc0ea5a99de24df1d4230046b47&auto=format&fit=crop&w=634&q=80);
+        background-size: 190%; 
+    }
+    section ul li:nth-child(2):hover {background-size:200%;}
+    section ul .x50x50{width: 66.666%; height: 66.666vh; }
+    section ul .x25x50{width: 33.333%; height: 66.666vh;}
+    section ul .x25x25{width: 33.333%; height: 44.444vh;}
+    section ul .x37x37{width: 50%; height: 50vh;}
+
+    footer{width: 100%; height: 200px; float: right;    background-color: #12b9a5;}
+    footer p{text-align: center; color: #fff; line-height: 200px;}    
+}
+
+
+
+/*----------------------------------------------------------------------------------------------------------*/
+
+@media all and (max-width: 600px) {
+    
+    header{    width: 100%;
+    height: 50px;
+    float: left;
+    /* position: fixed; */
+    padding-top: 30px;
+    padding-bottom: 30px;}
+    header h1{font-size: 20px;text-align: center;}
+    header nav {     margin-top: 20px;
+    /* margin-left: 10px; */
+    width: 100%;}
+    header nav ul{    width: 100%;}
+    header nav ul li{  float: left;    text-align: center;    font-size: 0.9em;
+    /* margin-left: 20px; */
+    width: 20%;}
+    section{width: 100%; height: 100%; float: right;}
+    section ul{width: 100%;  height: 100%;}
+    section ul li{float: left; 
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 130%; 
+        -webkit-transition: .4s ease-in-out;
+        transition: .4s ease-in-out;
+        cursor: pointer;
+    }
+    section ul li:hover{background-size:140%;}
+    section ul .x50x50{width: 100%; height: 50vh; }
+    section ul .x25x50{width: 100%; height: 50vh;}
+    section ul .x25x25{width: 100%; height: 50vh;}
+    section ul .x37x37{width: 100%; height: 50vh;}
+
+    footer{width: 100%; height: 200px; float: right;    background-color: #12b9a5;}
+    footer p{text-align: center; color: #fff; line-height: 200px;}      
+}
